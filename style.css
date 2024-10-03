@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: #f4d04e;
+  font-family: "Figtree";
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.card-section {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 9.6rem;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+}
+
+.card {
+  max-width: 38.4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.4rem;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 2.4rem;
+  border: #111111 solid 1px;
+  box-shadow: 0.8rem 0.8rem 0 0 #000000;
+}
+
+.card-heading {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.card-tag {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 800;
+  background-color: #f4d04e;
+  padding: 0.4rem 1.2rem;
+  border-radius: 4px;
+  align-self: self-start;
+}
+
+.pub-date {
+  font-size: 1.4rem;
+  font-weight: 500;
+  color: #111111;
+}
+.card-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+}
+
+.card-text {
+  display: inline-block;
+  color: #6b6b6b;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.card-img {
+  height: 20rem;
+  width: 33.6rem;
+  border-radius: 10px;
+}
+
+.card-author {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+.autor-img {
+  height: 3.2rem;
+  width: 3.2rem;
+  border-radius: 50%;
+}
+
+.autor-name {
+  font-size: 1.4rem;
+  font-weight: 800;
+}
